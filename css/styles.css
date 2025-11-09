@@ -369,7 +369,6 @@ img {
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 2px 1px 0 rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
 }
 
 .fourth-section-container {
@@ -396,6 +395,10 @@ img {
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-img-fourth-section:hover {
+    transform: translateY(0%);
 }
 
 .fourth-section-text {
